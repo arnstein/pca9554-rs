@@ -2,6 +2,8 @@
 
 This is a shameless copy of a shameless copy of Zac Berkowitz' tca9535-rs library.
 
+## WARNING: Due to time constraints, this is not properly tested, although it does work for what I am using it for. This is an invitation to help me test it out and give me a PR when you find problems. :)
+
 The PCA9554 is an 8-bit I/O expander for the two-line bidirectional bus (I2C) is designed for 1.65-V to 5.5-V VCC
 operation. It provides general-purpose remote I/O expansion for most micro-controller families through the I2C
 interface (serial clock, SCL, and serial data, SDA, pins).
