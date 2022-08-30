@@ -1,0 +1,18 @@
+[package]
+name = "pca9554-rs"
+version = "0.1.0"
+authors = ["Arnstein Kleven <arnsteinkleven@gmail.com>"]
+edition = "2021"
+license = "BSD-2-Clause"
+repository = "https://github.com/arnstein/pcal9554-rs"
+keywords = ["embedded-hal-driver", "i2c", "gpio"]
+categories = ["embedded", "hardware-support", "no-std"]
+readme = "README.md"
+description = "embedded-hal driver for the PCAL9554 IO expander"
+
+[dependencies]
+embedded-hal = "^0.2"
+bitflags = "1.2"
+
+[dev-dependencies]
+embedded-hal-mock = "^0.7"
